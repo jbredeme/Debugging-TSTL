@@ -1,0 +1,78 @@
+self.p_value[26] = 34 
+self.p_value[33] = 39 
+self.p_value[22] = 5 
+self.p_value[18] = 19 
+self.p_value[10] = 15 
+self.p_value[20] = 8 
+self.p_value[7] = 4 
+self.p_value[36] = 50 
+self.p_value[13] = 46 
+self.p_value[32] = 2 
+self.p_value[0] = 35 
+self.p_value[31] = 6 
+self.p_value[24] = 39 
+self.p_value[4] = 16 
+self.p_value[17] = 38 
+self.p_value[34] = 13 
+self.p_value[16] = 35 
+self.p_value[38] = 15 
+self.p_value[21] = 55 
+self.p_value[28] = 6 
+self.p_value[30] = 33 
+self.p_value[29] = 20 
+self.p_value[11] = 20 
+self.p_value[37] = 39 
+self.p_value[39] = 55 
+self.p_value[2] = 2 
+self.p_value[8] = 16 
+self.p_value[9] = 8 
+self.p_value[15] = 20 
+self.p_value[23] = 30 
+self.p_value[19] = 35 
+self.p_value[35] = 38 
+self.p_value[5] = 18 
+self.p_value[6] = 3 
+self.p_value[27] = 3 
+self.p_value[12] = 32 
+self.p_value[25] = 27 
+self.p_value[3] = 33 
+self.p_value[1] = 24 
+self.p_value[14] = 50 
+self.p_list[0] = [] 
+self.p_list[0].append(self.p_value[7]) 
+self.p_list[0].append(self.p_value[38]) 
+self.p_list[0].append(self.p_value[36]) 
+self.p_list[0].append(self.p_value[12]) 
+self.p_list[0].append(self.p_value[35]) 
+self.p_list[0].append(self.p_value[31]) 
+self.p_list[0].append(self.p_value[17]) 
+self.p_list[0].append(self.p_value[23]) 
+self.p_list[0].append(self.p_value[4]) 
+self.p_list[0].append(self.p_value[2]) 
+self.p_list[0].append(self.p_value[34]) 
+self.p_list[0].append(self.p_value[9]) 
+self.p_list[0].append(self.p_value[31]) 
+self.p_list[0].append(self.p_value[21]) 
+self.p_list[0].append(self.p_value[16]) 
+self.p_list[0].append(self.p_value[29]) 
+self.p_list[0].append(self.p_value[10]) 
+self.p_list[0].append(self.p_value[9]) 
+self.p_list[0].append(self.p_value[39]) 
+self.p_list[0].append(self.p_value[4]) 
+self.p_list[0].append(self.p_value[22]) 
+self.p_list[0].append(self.p_value[38]) 
+self.p_list[0].append(self.p_value[11]) 
+self.p_list[0].append(self.p_value[21]) 
+self.p_list[0].append(self.p_value[16]) 
+self.p_list[0].append(self.p_value[1]) 
+self.p_list[0].append(self.p_value[14]) 
+self.p_list[0].append(self.p_value[29]) 
+self.p_list[0].append(self.p_value[30]) 
+self.p_list[0].append(self.p_value[29]) 
+self.p_list[0].append(self.p_value[27]) 
+self.p_list[0].append(self.p_value[39]) 
+self.p_list[0].append(self.p_value[11]) 
+self.p_list[0].append(self.p_value[13]) 
+self.p_list[0].append(self.p_value[11]) 
+self.p_list[0].append(self.p_value[17]) 
+assert (bsort.bsort(self.p_list[0])) == (sorted(self.p_list[0])) 
