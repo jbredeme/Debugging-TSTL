@@ -1,0 +1,15 @@
+# Jarid Bredemeier
+# Automated Testing Software
+# Date: 05/05/2017
+
+@import bsort
+
+pool: <value> 40
+pool: <list> 1
+
+<value> := <[1..55]>
+
+<list> := []
+<list>.append(~<value>)
+
+assert (bsort.bsort(<list>)) == (sorted(<list,1>))
